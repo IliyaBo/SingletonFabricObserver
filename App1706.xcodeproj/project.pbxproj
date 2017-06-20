@@ -15,6 +15,12 @@
 		040C42CC1EF5235A00EB93D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040C42CA1EF5235A00EB93D1 /* LaunchScreen.storyboard */; };
 		040C42D71EF5235A00EB93D1 /* App1706Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C42D61EF5235A00EB93D1 /* App1706Tests.m */; };
 		040C42E21EF5235A00EB93D1 /* App1706UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C42E11EF5235A00EB93D1 /* App1706UITests.m */; };
+		040C42F11EF523FC00EB93D1 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C42F01EF523FC00EB93D1 /* Singleton.m */; };
+		0414F2A41EF52BA600C15508 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 0414F2A31EF52BA600C15508 /* Button.m */; };
+		0414F2A71EF52DFE00C15508 /* DefaultButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0414F2A61EF52DFE00C15508 /* DefaultButton.m */; };
+		0414F2AA1EF52E1400C15508 /* AddButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0414F2A91EF52E1400C15508 /* AddButton.m */; };
+		0414F2AD1EF52E2B00C15508 /* RemoveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0414F2AC1EF52E2B00C15508 /* RemoveButton.m */; };
+		0414F2B01EF536EC00C15508 /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0414F2AF1EF536EC00C15508 /* Observer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		040C42DD1EF5235A00EB93D1 /* App1706UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = App1706UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040C42E11EF5235A00EB93D1 /* App1706UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = App1706UITests.m; sourceTree = "<group>"; };
 		040C42E31EF5235A00EB93D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040C42EF1EF523FC00EB93D1 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = ../Singleton.h; sourceTree = "<group>"; };
+		040C42F01EF523FC00EB93D1 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Singleton.m; path = ../Singleton.m; sourceTree = "<group>"; };
+		0414F2A21EF52BA600C15508 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		0414F2A31EF52BA600C15508 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		0414F2A51EF52DFE00C15508 /* DefaultButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultButton.h; sourceTree = "<group>"; };
+		0414F2A61EF52DFE00C15508 /* DefaultButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultButton.m; sourceTree = "<group>"; };
+		0414F2A81EF52E1400C15508 /* AddButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddButton.h; sourceTree = "<group>"; };
+		0414F2A91EF52E1400C15508 /* AddButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddButton.m; sourceTree = "<group>"; };
+		0414F2AB1EF52E2B00C15508 /* RemoveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveButton.h; sourceTree = "<group>"; };
+		0414F2AC1EF52E2B00C15508 /* RemoveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoveButton.m; sourceTree = "<group>"; };
+		0414F2AE1EF536EC00C15508 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		0414F2AF1EF536EC00C15508 /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,13 @@
 		040C42BB1EF5235A00EB93D1 /* App1706 */ = {
 			isa = PBXGroup;
 			children = (
+				0414F2B11EF5384E00C15508 /* Buttons */,
+				0414F2A21EF52BA600C15508 /* Button.h */,
+				0414F2A31EF52BA600C15508 /* Button.m */,
+				040C42EF1EF523FC00EB93D1 /* Singleton.h */,
+				040C42F01EF523FC00EB93D1 /* Singleton.m */,
+				0414F2AE1EF536EC00C15508 /* Observer.h */,
+				0414F2AF1EF536EC00C15508 /* Observer.m */,
 				040C42BF1EF5235A00EB93D1 /* AppDelegate.h */,
 				040C42C01EF5235A00EB93D1 /* AppDelegate.m */,
 				040C42C21EF5235A00EB93D1 /* ViewController.h */,
@@ -138,6 +163,19 @@
 				040C42E31EF5235A00EB93D1 /* Info.plist */,
 			);
 			path = App1706UITests;
+			sourceTree = "<group>";
+		};
+		0414F2B11EF5384E00C15508 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				0414F2A51EF52DFE00C15508 /* DefaultButton.h */,
+				0414F2A61EF52DFE00C15508 /* DefaultButton.m */,
+				0414F2A81EF52E1400C15508 /* AddButton.h */,
+				0414F2A91EF52E1400C15508 /* AddButton.m */,
+				0414F2AB1EF52E2B00C15508 /* RemoveButton.h */,
+				0414F2AC1EF52E2B00C15508 /* RemoveButton.m */,
+			);
+			name = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +313,13 @@
 			files = (
 				040C42C41EF5235A00EB93D1 /* ViewController.m in Sources */,
 				040C42C11EF5235A00EB93D1 /* AppDelegate.m in Sources */,
+				0414F2AA1EF52E1400C15508 /* AddButton.m in Sources */,
+				0414F2B01EF536EC00C15508 /* Observer.m in Sources */,
+				0414F2AD1EF52E2B00C15508 /* RemoveButton.m in Sources */,
+				0414F2A41EF52BA600C15508 /* Button.m in Sources */,
+				0414F2A71EF52DFE00C15508 /* DefaultButton.m in Sources */,
 				040C42BE1EF5235A00EB93D1 /* main.m in Sources */,
+				040C42F11EF523FC00EB93D1 /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +551,7 @@
 				040C42E81EF5235A00EB93D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		040C42E91EF5235A00EB93D1 /* Build configuration list for PBXNativeTarget "App1706Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +560,7 @@
 				040C42EB1EF5235A00EB93D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		040C42EC1EF5235A00EB93D1 /* Build configuration list for PBXNativeTarget "App1706UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +569,7 @@
 				040C42EE1EF5235A00EB93D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
